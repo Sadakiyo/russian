@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="J33-c8-WE8">
-                                <rect key="frame" x="117" y="84" width="90" height="90"/>
+                                <rect key="frame" x="100" y="83" width="90" height="90"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -104,24 +104,6 @@
     <resources>
         <image name="D1020824_bigger.jpg" width="73" height="73"/>
     </resources>
-    <classes>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="AGAINbtn_down:"/>
-                <relationship kind="action" name="CHbtn_down:"/>
-                <relationship kind="action" name="GUbtn_down:"/>
-                <relationship kind="action" name="PAbtn_down:"/>
-                <relationship kind="outlet" name="AGAINbtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="CHbtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="GUbtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="KEKKAlbl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="MESlbl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="PAbtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="aiteImg" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

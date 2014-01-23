@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 University of kitakyushu. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
 
 @implementation AppDelegate
