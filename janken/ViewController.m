@@ -26,12 +26,12 @@ UIImage *pa_img;
     GUbtn.hidden = NO;
     KEKKAlbl.hidden = NO;
     aiteImg.hidden = NO;
-    //AITElbl.hidden = NO;
     
     NSInteger KEKKA = arc4random() % 3;
     if (KEKKA==0){
 
         KEKKAlbl.text = @"セーフ";
+        [KEKKAlbl setTextColor:[UIColor blueColor]];
         CHbtn.hidden = NO;
         PAbtn.hidden = NO;
         AGAINbtn.hidden =NO;
@@ -40,14 +40,14 @@ UIImage *pa_img;
     } else if (KEKKA==1){
      
         KEKKAlbl.text = @"セーフ";
-        [KEKKAlbl setTextColor:[UIColor redColor]];
+        [KEKKAlbl setTextColor:[UIColor blueColor]];
          CHbtn.hidden = NO;
          PAbtn.hidden = NO;
          AGAINbtn.hidden = NO;
         
        } else{
         KEKKAlbl.text = @"アウト！";
-            [KEKKAlbl setTextColor:[UIColor blueColor]];
+           [KEKKAlbl setTextColor:[UIColor redColor]];
            CHbtn.hidden = YES;
            PAbtn.hidden = YES;
            GUbtn.hidden = NO;
@@ -62,12 +62,11 @@ UIImage *pa_img;
     GUbtn.hidden = NO;
     KEKKAlbl.hidden = NO;
     aiteImg.hidden = NO;
-    //AITElbl.hidden = NO;
     
     NSInteger KEKKA = arc4random() % 3;
     if (KEKKA==0){
         KEKKAlbl.text = @"アウト！";
-         [KEKKAlbl setTextColor:[UIColor blueColor]];
+         [KEKKAlbl setTextColor:[UIColor redColor]];
         CHbtn.hidden = NO;
         PAbtn.hidden = YES;
         GUbtn.hidden = YES;
@@ -76,13 +75,14 @@ UIImage *pa_img;
         
     } else if (KEKKA==1){
         KEKKAlbl.text = @"セーフ";
+        [KEKKAlbl setTextColor:[UIColor blueColor]];
         CHbtn.hidden = NO;
         PAbtn.hidden = NO;
         GUbtn.hidden = NO;
         AGAINbtn.hidden = YES;
     } else{
         KEKKAlbl.text = @"セーフ";
-         [KEKKAlbl setTextColor:[UIColor redColor]];
+        [KEKKAlbl setTextColor:[UIColor blueColor]];
         CHbtn.hidden = NO;
         PAbtn.hidden = NO;
         GUbtn.hidden = NO;
@@ -97,22 +97,22 @@ UIImage *pa_img;
     GUbtn.hidden = NO;
     KEKKAlbl.hidden = NO;
     aiteImg.hidden = NO;
-    //AITElbl.hidden = NO;
     
     NSInteger KEKKA = arc4random() % 3;
     if (KEKKA==0){
         KEKKAlbl.text = @"セーフ";
-         [KEKKAlbl setTextColor:[UIColor redColor]];
+        [KEKKAlbl setTextColor:[UIColor blueColor]];
         AGAINbtn.hidden =NO;
     } else if (KEKKA==1){
         KEKKAlbl.text = @"アウト！";
-         [KEKKAlbl setTextColor:[UIColor blueColor]];
+        [KEKKAlbl setTextColor:[UIColor redColor]];
         GUbtn.hidden = YES;
         CHbtn.hidden = YES;
         PAbtn.hidden = NO;
         AGAINbtn.hidden = NO;
     } else{
         KEKKAlbl.text = @"セーフ";
+        [KEKKAlbl setTextColor:[UIColor blueColor]];
         GUbtn.hidden = NO;
         CHbtn.hidden = NO;
         PAbtn.hidden = NO;
